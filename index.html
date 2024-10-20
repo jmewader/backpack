@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мини-игра: Собери рюкзак</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="game__progress">
+        Готовность
+        <span class="game__progress_number">0/5</span>
+      </div>
+
+      <div class="game__message">
+        Теперь
+        <span>ты готов!</span>
+      </div>
+
+      <div class="game__items">
+        <div class="game__items_item">
+          <img class="game__items_item--nintendo" src="img/nintendo.png" alt="Нинтендо" />
+        </div>
+
+        <div class="game__items_item">
+          <img class="game__items_item--pencil" src="img/pencil.png" alt="Карандаш" />
+        </div>
+
+        <div class="game__items_item">
+          <img class="game__items_item--flashlight" src="img/flashlight.png" alt="Фонарик" />
+        </div>
+
+        <div class="game__items_item">
+          <img class="game__items_item--pen" src="img/pen.png" alt="Ручка" />
+        </div>
+
+        <div class="game__items_item">
+          <img class="game__items_item--notebook" src="img/notebook.png" alt="Тетрадь" />
+        </div>
+      </div>
+
+      <div class="game__backpack">
+        <img src="img/backpack.png" alt="Рюкзак" />
+      </div>
+
+      <div class="game__popup">
+        <img src="img/popup-text.png" alt="Текст задания" />
+      </div>
+
+      <div class="game__blick game__blick--one">
+        <img src="img/blick.png" alt="Блик" />
+      </div>
+
+      <div class="game__blick game__blick--two">
+        <img src="img/blick.png" alt="Блик" />
+      </div>
+
+      <div class="game__blick game__blick--three">
+        <img src="img/blick.png" alt="Блик" />
+      </div>
+
+      <button class="game__restart-button">Попробуй еще</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
